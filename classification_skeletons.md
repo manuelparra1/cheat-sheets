@@ -13,8 +13,13 @@
 	
 ```
 ```python
+
+## _Pandas - Fill Blanks_
 iris_df.isna().sum()
 df['column'].fillna('killer_filler',inplace=True)
+
+
+## _Pandas - Drop Columns_
 
 to_drop = ['species_id', 'measurement_id']
 iris_df.drop(columns=to_drop,inplace=True)

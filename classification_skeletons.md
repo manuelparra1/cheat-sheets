@@ -1,4 +1,4 @@
-## _Top Imports__
+## _Top Imports_
 ```python
 	
 import numpy as np
@@ -30,3 +30,14 @@ iris_df.drop(columns=to_drop,inplace=True)
 
 ```
 ## _Data Preparation_
+```python
+	
+	df = clean_data(df)
+	
+	train_validate, test = train_test_split(df, test_size=.2, random_state=123, stratify=df.survived)
+	train, validate = train_test_split(train_validate, 
+                                       test_size=.3, 
+                                       random_state=123, 
+                                       stratify=train_validate.survived)
+	return train, validate, test
+```

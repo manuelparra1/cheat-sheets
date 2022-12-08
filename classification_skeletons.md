@@ -25,6 +25,7 @@ pd.to_csv('file.csv,index=False)
 ```
 ## _Pandas - Fill Blanks_
 
+
 ```python
 
 iris_df.isna().sum()
@@ -38,6 +39,10 @@ df['column'].fillna('killer_filler',inplace=True)
 to_drop = ['species_id', 'measurement_id']
 iris_df.drop(columns=to_drop,inplace=True)
 
+```
+## Drop Null Value
+```python
+	df.dropna()
 ```
 ## _Data Preparation_
 ```python

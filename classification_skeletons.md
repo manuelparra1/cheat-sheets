@@ -66,5 +66,5 @@ iris_df.drop(columns=to_drop,inplace=True)
 ## Display Latex
 ```python
 	if p < alpha:
-    display(Latex((f"Failed to reject $H_{0}$")))
+		display(Latex((f"Failed to reject $H_{0}$")))
 ```

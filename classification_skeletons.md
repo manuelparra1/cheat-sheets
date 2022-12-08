@@ -8,6 +8,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pydataset import data
 
+# pip install ipython
+from IPython.display import display, Latex
+
+#pip install quantum-random
+import qrandom
+
 import os
 import env as env
 import acquire as acq

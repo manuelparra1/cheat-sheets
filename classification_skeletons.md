@@ -1,4 +1,4 @@
-## Top Imports
+## _Top Imports__
 ```python
 	
 import numpy as np
@@ -29,3 +29,4 @@ to_drop = ['species_id', 'measurement_id']
 iris_df.drop(columns=to_drop,inplace=True)
 
 ```
+## _Data Preparation_

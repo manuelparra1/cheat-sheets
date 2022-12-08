@@ -62,3 +62,9 @@ iris_df.drop(columns=to_drop,inplace=True)
                                        stratify=train_validate.survived)
 	return train, validate, test
 ```
+
+## Display Latex
+```python
+	if p < alpha:
+    display(Latex((f"Failed to reject $H_{0}$")))
+```

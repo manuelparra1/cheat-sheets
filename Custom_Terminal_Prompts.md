@@ -32,3 +32,22 @@ _Files will download to your Home Directory / Downloads Folder_
 ```bash
 	curl -fsSL https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf --output ~/Downloads/MesloLGS\ NF\ Bold\ Italic.ttf
 ```
+
+# 4. Your Favorite Terminal - Load Theme - Edit [.zshrc](https://toolspond.com/zshrc/)
+
+	a. Edit
+	
+		```bash
+		
+			nano ~/.zshrc
+			
+		```
+		
+		_change theme settings line to **PowerLevel10K**_
+		
+		```bash
+		
+			ZSH_THEME="powerlevel10k/powerlevel10k"
+			
+		```
+	b. Reload .zshrc

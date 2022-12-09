@@ -37,7 +37,7 @@ _Files will download to your Home Directory / Downloads Folder_
 ```
 
 # 4. Your Favorite Terminal - Load Theme - Edit [.zshrc](https://toolspond.com/zshrc/)
-a. Edit
+### a. Edit
 	
 ```bash
 		
@@ -45,14 +45,25 @@ a. Edit
 			
 ```
 		
-_change theme settings line to **PowerLevel10K**_
+## Change theme settings line to **PowerLevel10K**
 		
 ```bash
 		
 	ZSH_THEME="powerlevel10k/powerlevel10k"
 			
 ```
-b. Reload .zshrc
+
+## _PATH_
+
+### b. Uncomment Path Export
+> OhMyZsh backups your former .zshrc so make sure to copy your old custom PATH.
+> Old zshrc file name is:
+
+```bash
+	.zshrc.pre-oh-my-zsh
+```
+
+#### c. Reload .zshrc
 ```bash
 	source ~/.zshrc
 ```

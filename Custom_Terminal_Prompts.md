@@ -1,3 +1,6 @@
+<img align="center" width="800" src="ITerm2 + OhMyZsh + P10K.png">
+
+
 # 1. Install Oh My Zsh - (Custom Terminal Prompts)
 > https://github.com/ohmyzsh/ohmyzsh/
 ```bash

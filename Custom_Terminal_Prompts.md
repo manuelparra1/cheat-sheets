@@ -34,20 +34,19 @@ _Files will download to your Home Directory / Downloads Folder_
 ```
 
 # 4. Your Favorite Terminal - Load Theme - Edit [.zshrc](https://toolspond.com/zshrc/)
-
-	a. Edit
+a. Edit
 	
-		```bash
+```bash
 		
-			nano ~/.zshrc
+	nano ~/.zshrc
 			
-		```
+```
 		
-		_change theme settings line to **PowerLevel10K**_
+_change theme settings line to **PowerLevel10K**_
 		
-		```bash
+```bash
 		
-			ZSH_THEME="powerlevel10k/powerlevel10k"
+	ZSH_THEME="powerlevel10k/powerlevel10k"
 			
-		```
-	b. Reload .zshrc
+```
+b. Reload .zshrc

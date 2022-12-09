@@ -50,3 +50,13 @@ _change theme settings line to **PowerLevel10K**_
 			
 ```
 b. Reload .zshrc
+```bash
+	source ~/.zshrc
+```
+# 5. Run PowerLevel10K Settings
+```bash
+	p10k configure
+```
+
+# 6. Your Favorite Terminal - Font Size & Colors
+> _iTerm2's "Smoooth" Color Preset is nice_

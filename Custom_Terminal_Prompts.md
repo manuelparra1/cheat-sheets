@@ -57,6 +57,7 @@ _Files will download to your Home Directory / Downloads Folder_
 
 ### b. Uncomment Path Export
 > OhMyZsh backups your former .zshrc so make sure to copy your old custom PATH.
+> 
 > Old zshrc file name is:
 
 ```bash

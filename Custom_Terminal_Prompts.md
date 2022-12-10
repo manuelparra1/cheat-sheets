@@ -14,12 +14,17 @@
 ```
 
 # 3. Install Required Fonts
-> https://github.com/romkatv/powerlevel10k-media
+
+> [Meslo Nerd Font Patched for Powerlevel10k](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
 
 - MesloLGS NF Regular.ttf
 - MesloLGS NF Bold.ttf
 - MesloLGS NF Italic.ttf
 - MesloLGS NF Bold Italic.ttf
+
+> Manual Install:
+> https://github.com/romkatv/powerlevel10k-media
+
 
 _Files will download to your Home Directory / Downloads Folder_
     
@@ -75,3 +80,5 @@ _Files will download to your Home Directory / Downloads Folder_
 
 # 6. Your Favorite Terminal - Font Size & Colors
 > _iTerm2's "Smoooth" Color Preset is nice_
+
+

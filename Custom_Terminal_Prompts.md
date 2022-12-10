@@ -50,7 +50,7 @@ _Files will download to your Home Directory / Downloads Folder_
 			
 ```
 		
-#### - Change theme settings line in `.zshrc` to \"**`powerlevel10k/powerlevel10k`**\"
+#### - Change theme settings line in `.zshrc` to **`\"powerlevel10k/powerlevel10k\"`**
 		
 ```bash
 		

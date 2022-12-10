@@ -42,7 +42,7 @@ _Files will download to your Home Directory / Downloads Folder_
 ```
 
 # 4. Your Favorite Terminal - Load Theme - Edit [.zshrc](https://toolspond.com/zshrc/)
-### a. Edit
+### a. Edit `.zshrc`
 	
 ```bash
 		

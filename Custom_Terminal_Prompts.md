@@ -41,7 +41,7 @@ _Files will download to your Home Directory / Downloads Folder_
 	curl -fsSL https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf --output ~/Downloads/MesloLGS\ NF\ Bold\ Italic.ttf
 ```
 
-# 4. Your Favorite Terminal - Load Theme - Edit [.zshrc](https://toolspond.com/zshrc/)
+# 4. Your Favorite Terminal + Load Theme + Edit [`.zshrc`](https://toolspond.com/zshrc/)
 ### a. Edit `.zshrc`
 	
 ```bash
@@ -50,7 +50,7 @@ _Files will download to your Home Directory / Downloads Folder_
 			
 ```
 		
-## Change theme settings line in `.zshrc` to **PowerLevel10K**
+#### - Change theme settings line in `.zshrc` to \"**`powerlevel10k/powerlevel10k`**\"
 		
 ```bash
 		
@@ -58,18 +58,19 @@ _Files will download to your Home Directory / Downloads Folder_
 			
 ```
 
-## _PATH_
+### b. Fix `$PATH`
 
-### b. Uncomment Path Export
-> OhMyZsh backups your former .zshrc so make sure to copy your old custom PATH.
+#### - Uncomment Path Export
+	
+> OhMyZsh backups your former `.zshrc`, so make sure to copy your old custom `PATH`.
 > 
-> Old zshrc file name is:
+> Old `.zshrc` file name is:
 
 ```bash
 	.zshrc.pre-oh-my-zsh
 ```
 
-#### c. Reload .zshrc
+### c. Reload `.zshrc`
 ```bash
 	source ~/.zshrc
 ```

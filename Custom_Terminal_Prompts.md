@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">Custom Terminal Command Prompt</h1>
+
 <img align="center" width="800" src="ITerm2 + OhMyZsh + P10K.png">
 
 

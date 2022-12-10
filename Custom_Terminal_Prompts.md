@@ -83,5 +83,6 @@ _Files will download to your Home Directory / Downloads Folder_
 
 # 6. Your Favorite Terminal - Font Size & Colors
 > _iTerm2's "Smoooth" Color Preset is nice_
-
+<img align="center" width="600" src="iTerm2 - Fonts">
+<img align="center" width="600" src="iTerm2 - Colors">
 

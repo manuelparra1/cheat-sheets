@@ -77,3 +77,11 @@ iris_df.drop(columns=to_drop,inplace=True)
 ```bash
 	nbgrep "print(output)" .
 ```
+
+# Align Markdown Tables Left
+```html
+	%%html
+	<style>
+	table {float:left}
+	</style>
+```

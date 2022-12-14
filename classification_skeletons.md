@@ -81,7 +81,7 @@ z
 ```
 
 ```bash
-	nbgrep "print(output)" .
+	nbgrep "print(output)" 
 ```
 
 # Align Markdown Tables Left

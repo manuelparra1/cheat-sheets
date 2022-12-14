@@ -1,6 +1,5 @@
 ## _Top Imports_
 ```python
-	
 import numpy as np
 import seaborn as sns
 import scipy.stats as stats
@@ -17,17 +16,22 @@ import qrandom
 import os
 import env as env
 import acquire as acq
-	
 ```
-### Avoid `Unnamed: 0` Column
 
+## Markdown - Insert Image
+```html
+	<img src="confusion_matrix.png" align=left width="600">
+```
+
+### Avoid `Unnamed: 0` Column
+≤
 #### Importing CSV
 ```python
 pd.read_csv('file.csv',index_col=0)
 ```
 #### Saving CSV
 ```python
-pd.to_csv('file.csv,index=False)
+	pd.to_csv('file.csv,index=False)
 ```
 ## _Pandas - Fill Blanks_
 
@@ -71,6 +75,7 @@ iris_df.drop(columns=to_drop,inplace=True)
 
 ## Search Jupyter Notebooks
 > https://github.com/vinayak-mehta/nbcommands/
+
 ```bash
 	pip install nbcommands
 ```
@@ -85,3 +90,4 @@ iris_df.drop(columns=to_drop,inplace=True)
 	table {float:left}
 	</style>
 ```
+# Greetings from Sublime Text

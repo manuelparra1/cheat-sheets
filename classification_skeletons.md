@@ -72,13 +72,14 @@ iris_df.drop(columns=to_drop,inplace=True)
 	if p < alpha:
 		display(Latex((f"Failed to reject $H_{0}$")))
 ```
-
+z
 ## Search Jupyter Notebooks
 > https://github.com/vinayak-mehta/nbcommands/
 
 ```bash
 	pip install nbcommands
 ```
+
 ```bash
 	nbgrep "print(output)" .
 ```

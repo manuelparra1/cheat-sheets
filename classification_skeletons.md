@@ -7,7 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pydataset import data
 
-# pip install ipython
+// pip install ipython
 from IPython.display import display, Latex
 
 #pip install quantum-random
@@ -23,11 +23,13 @@ import acquire as acq
 	<img src="confusion_matrix.png" align=left width="600">
 ```
 
+<img src="confusion_matrix.png" width="500">
+
 ### Avoid `Unnamed: 0` Column
-≤
+
 #### Importing CSV
 ```python
-pd.read_csv('file.csv',index_col=0)
+    pd.read_csv('file.csv',index_col=0)
 ```
 #### Saving CSV
 ```python
@@ -38,16 +40,16 @@ pd.read_csv('file.csv',index_col=0)
 
 ```python
 
-iris_df.isna().sum()
-df['column'].fillna('killer_filler',inplace=True)
+    iris_df.isna().sum()
+    df['column'].fillna('killer_filler',inplace=True)
 
 ```
 ## _Pandas - Drop Columns_
 
 ```python
 
-to_drop = ['species_id', 'measurement_id']
-iris_df.drop(columns=to_drop,inplace=True)
+    to_drop = ['species_id', 'measurement_id']
+    iris_df.drop(columns=to_drop,inplace=True)
 
 ```
 ## Drop Null Value
@@ -69,10 +71,14 @@ iris_df.drop(columns=to_drop,inplace=True)
 
 ## Display Latex
 ```python
+    from IPython.display import display, Latex
+
 	if p < alpha:
 		display(Latex((f"Failed to reject $H_{0}$")))
 ```
-z
+
+<img src='Display Latex - Jupyter Notebook Screenshot.png' width='450'>
+
 ## Search Jupyter Notebooks
 > https://github.com/vinayak-mehta/nbcommands/
 

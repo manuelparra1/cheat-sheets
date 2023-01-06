@@ -1,7 +1,11 @@
 # Hide Code - Jupyter Notebook
 
-> - Paste this code into notebook cell
->   <br> and run as code
+#### If you don't want to <br>`pip install` or `conda install` <br> jupyter notebook plugins/extensions
+
+<br>
+
+> Paste this code into notebook cell
+> <br> and run as code
 
 ```python
 

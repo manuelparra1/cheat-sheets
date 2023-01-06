@@ -21,3 +21,21 @@ Plugin managers.
 #### 2.
 
 #### 3.
+
+## Keyboard Shortcut
+
+### 1. New Tab
+
+> Command Mode
+
+```
+:tabnew <filename.ext>
+```
+
+### 2. Close Buffer or Tab
+
+> Command Mode
+
+```
+:bd
+```

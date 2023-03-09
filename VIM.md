@@ -39,3 +39,15 @@ Plugin managers.
 ```
 :bd
 ```
+
+## Common Built-In Shortcuts
+
+- Move Cursor
+
+```bash
+w #move left 1 Word
+```
+
+```bash
+b #move right 1 Word
+```
